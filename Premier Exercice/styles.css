@@ -1,0 +1,320 @@
+/* ===============================
+   Colour Palette:
+   ---------------
+   Light Cream:	#f2f3ee
+   Orange:			#d17f38
+   Yellow:			#e8c04f
+   Brown:			#4b2707
+   =============================== */
+/*   <p style="text-align:left;"> DANS HTML
+
+/* General */
+*{
+  box-sizing: border-box;
+  border-style: hidden;
+}
+body {
+   -webkit-font-smoothing: antialiased;
+   text-rendering: optimizelegibility;
+   background-image: url('images/bg-tile.gif');
+   background-repeat: repeat;
+}
+
+.container {
+  text-align: center;
+
+
+}
+
+
+/* Typography */
+
+h1, h2 {
+
+
+
+}
+
+h1 {
+  font-family: "Love Ya Like A Sister";
+  color: #d17f38;
+  text-align: center;
+  height: 60px;
+  background-image: url('images/header-divider.png');
+  background-repeat: no-repeat;
+}
+
+
+h1 em {
+  font-family: "Love Ya Like A Sister";
+  color: #4b2707
+
+}
+
+h2 {
+  font-family: "Love Ya Like A Sister";
+  color: #d17f38;
+
+}
+
+h3 {
+  font-family: "Open Sans";
+  color: #4b2707;
+  text-align: center;
+
+}
+
+p.lead {
+
+
+}
+
+p {
+font-family: "Open Sans";
+float: left;
+color: black;
+}
+
+a:link, a:visited {
+  color: #d17f38;
+  font-family: "Open Sans";
+
+}
+
+a:hover {
+background-image: url('images/logo-hover.png');
+color: #4b2707;
+
+
+}
+
+hr {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url('images/divider.png');
+  display: inline-block;
+  height: 30px;
+  width: 300px;
+
+}
+
+
+/* Header */
+
+header nav {
+    font-family: "Open Sans";
+    text-align: center;
+
+
+
+}
+
+header nav ul {
+
+
+
+}
+
+header nav ul li {
+
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 900;
+}
+
+header nav ul li a {
+  text-transform: uppercase;
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 900;
+  margin: 30px;
+
+
+}
+
+header nav ul li a:hover {
+  background-image: url('images/tiny-donut.png');
+  background-repeat: no-repeat;
+
+}
+
+header nav ul li#logo a {
+background-image: url('images/logo.png');
+height: 150px;
+width: 260px;
+background-repeat: no-repeat;
+color: transparent;
+}
+
+header nav ul li#logo a:hover {
+font-family: "Open Sans";
+background-image: url('images/logo-hover.png');
+height: 150px;
+width: 260px;
+color: transparent;
+}
+
+
+/* Hero */
+
+#hero {
+font-family: "Love Ya Like A Sister";
+background-color: #e8c04f;
+
+
+}
+
+#hero .container {
+  background-image: url('images/fresh-whole-ingredients.png');
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+#hero .large-ribbon {
+
+}
+
+
+
+/* The Whole Story */
+
+#story-excerpt {
+
+ font-family: "Love Ya Like A Sister";
+ background-position: center;
+ background-image: url('images/header-divider.png');
+ background-repeat: no-repeat;
+
+}
+
+#best-donut {
+  color: black
+ font-family: "Love Ya Like A Sister";
+ background-image: url('images/award.png');
+ background-repeat: no-repeat;
+}
+
+
+
+
+
+/* News & Events */
+
+#articles {
+
+  font-family: "Love Ya Like A Sister";
+  text-align: center;
+}
+
+#feature-image {
+
+
+}
+
+#news-events article {
+  font-family: "Love You Like A Sister";
+  color: #d17f38;
+
+
+}
+
+#news-events article.news {
+  font-family: "Love You Like A Sister";
+  color: #d17f38;
+  background-image: url('images/icon-news.png');
+  background-repeat: no-repeat;
+  background-position: left;
+
+}
+
+#news-events article.event {
+  font-family: "Love You Like A Sister";
+  color: #d17f38;
+  background-image: url('images/icon-calendar.png');
+  background-repeat: no-repeat;
+  background-position: left;
+
+}
+
+#news-events header time {
+  font-family: "Love You Like A Sister";
+color: #d17f38;
+}
+
+#news-events section.excerpt {
+  font-family: "Love You Like A Sister";
+  color: #d17f38;
+
+}
+
+#news-events footer {
+  font-family: "Love You Like A Sister";
+
+}
+
+/* Footer */
+
+footer.main {
+background-color: #4b2707;
+  font-family: "Love You Like A Sister";
+
+
+
+}
+
+footer.main a:hover {
+  font-family: "Love You Like A Sister";
+  text-align: right
+
+
+}
+
+#uncopyright, #credits {
+
+  font-family: "Open Sans";
+  color: #f2f3ee;
+
+
+
+
+}
+
+
+#uncopyright {
+  background-image: url('images/icon-recycle.png');
+  background-repeat: no-repeat;
+  font-family: "Open Sans";
+    float: left;
+
+
+
+
+
+}
+
+#credits {
+
+font-family: "Open Sans";
+background-image: url('images/icon-apple.png');
+background-repeat: no-repeat;
+background-position: right;
+text-decoration: none;
+float: right;
+
+
+}
+
+
+/* Force Elements to Self Clear its Children: http://css-tricks.com/snippets/css/clear-fix/ */
+
+.clearfix:after {
+	visibility: hidden;
+  background-position: center;
+	display: block;
+	content: "";
+	clear: both;
+	height: 0;
+
+	}
+* html .group             { zoom: 1; } /* IE6 */
+*:first-child+html .group { zoom: 1; } /* IE7 */
