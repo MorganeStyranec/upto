@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+
+<BorderPane fx:id="page" minHeight="500.0" minWidth="400.0" styleClass="bg" stylesheets="@application.css" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.111" fx:controller="com.upto.application.LoginController">
+   <top>
+      <Label fx:id="messageerreur" alignment="TOP_LEFT" styleClass="messageerreur" text="Message erreur" underline="true" BorderPane.alignment="TOP_CENTER" />
+   </top>
+   <center>
+      <VBox fx:id="container" alignment="CENTER" prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="TOP_RIGHT">
+         <children>
+            <TextField fx:id="login" alignment="TOP_LEFT" maxWidth="200.0" promptText="Login" styleClass="login" />
+            <PasswordField fx:id="passwordfield" maxWidth="200.0" promptText="Password" styleClass="passwordfield" />
+         </children>
+      </VBox>
+   </center>
+   <bottom>
+      <HBox fx:id="footer" alignment="TOP_RIGHT" prefHeight="50.0" prefWidth="50.0" spacing="10.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="button" mnemonicParsing="false" text="Valider" />
+            <Button fx:id="button" mnemonicParsing="false" text="Annuler" />
+         </children>
+      </HBox>
+   </bottom>
+</BorderPane>
